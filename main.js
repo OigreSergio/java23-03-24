@@ -4,9 +4,7 @@ function firstOne(numbers) {
     let element = numbers[i];
     if (element > 0) {
       newarray.push(element);
-    } else if (element < 0) {
-      newarray.push(0);
-    } else if (element == 0) {
+    } else if (element <= 0) {
       newarray.push(0);
     }
   }
